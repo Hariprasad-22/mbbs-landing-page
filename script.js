@@ -13,9 +13,10 @@ document.getElementById("leadForm").addEventListener("submit", function(event) {
     }
 });
 
-    document.getElementById("applyNowBtn").addEventListener("click", function () {
-        document.getElementById("leadForm").scrollIntoView({ behavior: "smooth" });
-    });
+   document.getElementById("applyBtn").addEventListener("click", function() {
+    window.location.href = "application.html"; 
+});
+
 
     window.onload = function () {
         // Google Analytics tracking
