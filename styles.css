@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+
+
+header{
+    background-image:url('https://media.istockphoto.com/id/1604037104/photo/group-of-happy-medical-and-nursing-at-the-university-looking-at-camera.jpg?s=612x612&w=0&k=20&c=6HSQc0j30oseks4TJTpAhLh_ZMH27QlWaj2QQaHgK3Q=');
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; 
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.overlay {
+    background: rgba(240, 237, 237, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+body, p {
+    font-family: "Lato", sans-serif;
+}
+
+button {
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.main-heading{
+    font-size: 3rem !important;
+    color: black;
+    font-weight: bold;
+    text-align: start;
+    
+}
+.sub-head{
+    text-align: start;
+    font-size: 30px;
+    color: rgb(8, 84, 105);
+}
+hr{
+    opacity: 1;
+}
+.ben{
+    display: flex;
+    
+}
+.countries{
+    border: 2px black solid;
+    background-color: aqua;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+    align-items: center;
+}
+.ref-pic{
+    height: 250px;
+    width: 500px;
+    /* border-radius: 10px;  */
+    object-fit: cover;
+   
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.comm-middle{
+    height: fit-content;
+}
+
+ul li{
+    list-style-type: none;
+}
+.form-button{
+    margin-left: 25%;
+}
+body {
+    background-color: #f8f9fa; /* Light gray */
+}
