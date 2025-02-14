@@ -13,9 +13,9 @@ document.getElementById("leadForm").addEventListener("submit", function(event) {
     }
 });
 
-   document.getElementById("applyBtn").addEventListener("click", function() {
-    window.location.href = "application.html"; 
-});
+   document.getElementById("applyNowBtn").addEventListener("click", function () {
+        document.getElementById("leadForm").scrollIntoView({ behavior: "smooth" });
+    });
 
 
     window.onload = function () {
